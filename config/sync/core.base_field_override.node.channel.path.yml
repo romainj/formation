@@ -1,0 +1,20 @@
+uuid: 13ca5614-35ba-42a4-884e-fc15396ecbf9
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.channel
+  module:
+    - path
+id: node.channel.path
+field_name: path
+entity_type: node
+bundle: channel
+label: 'Alias d''URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

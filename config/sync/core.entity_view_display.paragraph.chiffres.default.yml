@@ -1,0 +1,63 @@
+uuid: cce404f6-c388-4846-ad9c-e545f9e888da
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.chiffres.field_chiffre
+    - field.field.paragraph.chiffres.field_description
+    - field.field.paragraph.chiffres.field_titre
+    - field.field.paragraph.chiffres.field_unite
+    - field.field.paragraph.chiffres.field_vignette
+    - image.style.paragraphe_chiffre_vignette
+    - paragraphs.paragraphs_type.chiffres
+  module:
+    - image
+id: paragraph.chiffres.default
+targetEntityType: paragraph
+bundle: chiffres
+mode: default
+content:
+  field_chiffre:
+    weight: 1
+    label: hidden
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_description:
+    weight: 4
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_titre:
+    weight: 3
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_unite:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_vignette:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: paragraphe_chiffre_vignette
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

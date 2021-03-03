@@ -1,0 +1,23 @@
+uuid: 23761d7e-069f-4ad0-820c-88499ccc3257
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_age_minimum
+    - node.type.channel
+id: node.channel.field_age_minimum
+field_name: field_age_minimum
+entity_type: node
+bundle: channel
+label: 'Age minimum'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 8
+  max: 18
+  prefix: ''
+  suffix: ' ans'
+field_type: integer

@@ -1,0 +1,22 @@
+uuid: 70c3f13b-2132-49d8-bb39-e9769555381a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.chiffres
+id: block_content.chiffres.status
+field_name: status
+entity_type: block_content
+bundle: chiffres
+label: Publié
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

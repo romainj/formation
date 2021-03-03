@@ -1,0 +1,18 @@
+uuid: 1356e014-d256-4cd9-8e08-5b9c0d8fc789
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.chiffres
+id: block_content.chiffres.changed
+field_name: changed
+entity_type: block_content
+bundle: chiffres
+label: Modifié
+description: 'L''heure à laquelle le bloc personnalisé a été modifié pour la dernière fois.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

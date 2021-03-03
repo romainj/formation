@@ -1,0 +1,18 @@
+uuid: 99240b50-cc01-4e79-bb3d-4b776e41b3d3
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.hub
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.hub
+target_entity_type_id: node
+target_bundle: hub
+default_langcode: site_default
+language_alterable: true

@@ -1,0 +1,22 @@
+uuid: 45b64df8-4fba-49a1-b6ed-17d0725abac5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.channel
+id: node.channel.status
+field_name: status
+entity_type: node
+bundle: channel
+label: Publié
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

@@ -1,0 +1,23 @@
+uuid: 06249790-0c41-409c-9fd8-e02f56730b61
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_age_minimum
+    - node.type.article
+id: node.article.field_age_minimum
+field_name: field_age_minimum
+entity_type: node
+bundle: article
+label: 'Age minimum'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 8
+  max: 18
+  prefix: ''
+  suffix: ' ans'
+field_type: integer

@@ -1,0 +1,19 @@
+uuid: f7cc7295-986b-4c6b-8d8a-13dd4f7c9920
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.chiffres
+id: paragraph.chiffres.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: chiffres
+label: Description
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

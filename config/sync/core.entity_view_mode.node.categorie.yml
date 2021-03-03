@@ -1,0 +1,10 @@
+uuid: ec343d4f-467a-44bb-b438-7cbdd37ebed7
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: node.categorie
+label: Catégorie
+targetEntityType: node
+cache: true

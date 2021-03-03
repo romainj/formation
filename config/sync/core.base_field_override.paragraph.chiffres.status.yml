@@ -1,0 +1,22 @@
+uuid: d383c47e-30fd-4b69-96ba-50ac76911f8c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.chiffres
+id: paragraph.chiffres.status
+field_name: status
+entity_type: paragraph
+bundle: chiffres
+label: Publié
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

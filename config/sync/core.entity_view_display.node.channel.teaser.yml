@@ -1,0 +1,29 @@
+uuid: 49500bab-2635-463c-b422-8b3d770d3a04
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.channel.field_age_minimum
+    - field.field.node.channel.field_categorie
+    - field.field.node.channel.field_contenus
+    - field.field.node.channel.field_pilier
+    - node.type.channel
+  module:
+    - user
+id: node.channel.teaser
+targetEntityType: node
+bundle: channel
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_age_minimum: true
+  field_categorie: true
+  field_contenus: true
+  field_pilier: true
+  langcode: true

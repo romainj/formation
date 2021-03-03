@@ -1,0 +1,22 @@
+uuid: f8599c20-63bd-4fd7-b54b-56e54cf056e5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.hub
+id: node.hub.status
+field_name: status
+entity_type: node
+bundle: hub
+label: Publié
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

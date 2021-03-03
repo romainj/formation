@@ -1,0 +1,33 @@
+uuid: 9978c972-5952-4385-b45e-86ef3ca01433
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.composant_videeo
+    - field.field.block_content.composant_videeo.body
+    - field.field.block_content.composant_videeo.field_video
+  module:
+    - text
+id: block_content.composant_videeo.default
+targetEntityType: block_content
+bundle: composant_videeo
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_video:
+    type: entity_reference_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,14 @@
+uuid: a2f1914a-ebfe-414b-aa59-c505192a1d1c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.enseignant
+  module:
+    - user
+id: user_remove_role_action.enseignant
+label: 'Enlever le rôle Enseignant des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: enseignant

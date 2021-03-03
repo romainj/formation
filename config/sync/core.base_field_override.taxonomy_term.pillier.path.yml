@@ -1,0 +1,20 @@
+uuid: d4dad5fb-68b6-4bdf-b246-61102f0c51f6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.pillier
+  module:
+    - path
+id: taxonomy_term.pillier.path
+field_name: path
+entity_type: taxonomy_term
+bundle: pillier
+label: 'Alias d''URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

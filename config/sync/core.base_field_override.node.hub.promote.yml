@@ -1,0 +1,22 @@
+uuid: b0db7d57-1913-449c-b920-515f7aa8226e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.hub
+id: node.hub.promote
+field_name: promote
+entity_type: node
+bundle: hub
+label: 'Promu en page d''accueil'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

@@ -1,0 +1,30 @@
+uuid: 24429b6e-62a2-4b83-af11-02acdc72cde5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.sous_categories
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__sous_categories_block_1
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:sous_categories-block_1'
+settings:
+  id: 'views_block:sous_categories-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '/taxonomy/term/*'
+    negate: false

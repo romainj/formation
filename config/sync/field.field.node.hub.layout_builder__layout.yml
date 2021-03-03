@@ -1,0 +1,21 @@
+uuid: 328fb5d2-292d-42c0-a8f7-99e5064f6635
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.layout_builder__layout
+    - node.type.hub
+  module:
+    - layout_builder
+id: node.hub.layout_builder__layout
+field_name: layout_builder__layout
+entity_type: node
+bundle: hub
+label: Affichage
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: layout_section

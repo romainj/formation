@@ -1,0 +1,15 @@
+uuid: 86f15a52-e403-4ef5-8d2d-9fe2eb3b8d17
+langcode: fr
+status: true
+dependencies: {  }
+name: paragraphe_chiffre_vignette
+label: 'Paragraphe Chiffre Vignette'
+effects:
+  a14bcbeb-3d60-47ea-9cef-612df31e3600:
+    uuid: a14bcbeb-3d60-47ea-9cef-612df31e3600
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 70
+      height: 70
+      anchor: center-center

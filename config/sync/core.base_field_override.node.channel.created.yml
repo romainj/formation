@@ -1,0 +1,18 @@
+uuid: d8a36c12-12c2-4f25-b5f7-f86622ce41a7
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.channel
+id: node.channel.created
+field_name: created
+entity_type: node
+bundle: channel
+label: 'Écrit le'
+description: 'L''heure à laquelle le nœud a été créé.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

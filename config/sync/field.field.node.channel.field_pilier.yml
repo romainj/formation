@@ -1,0 +1,29 @@
+uuid: 8ee00862-ec99-41b7-86fe-26aaa157d332
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pilier
+    - node.type.channel
+    - taxonomy.vocabulary.pillier
+id: node.channel.field_pilier
+field_name: field_pilier
+entity_type: node
+bundle: channel
+label: Pilier
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      pillier: pillier
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

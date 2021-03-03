@@ -1,0 +1,31 @@
+uuid: 48b22fed-ea30-47a4-b133-da5d3d68086a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.chiffres
+    - field.storage.block_content.field_chiffre
+    - paragraphs.paragraphs_type.chiffres
+  module:
+    - entity_reference_revisions
+id: block_content.chiffres.field_chiffre
+field_name: field_chiffre
+entity_type: block_content
+bundle: chiffres
+label: Chiffre
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      chiffres: chiffres
+    target_bundles_drag_drop:
+      chiffres:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

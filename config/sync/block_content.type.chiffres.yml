@@ -1,0 +1,8 @@
+uuid: 76586e75-a2af-4409-a603-e8444fc5f700
+langcode: fr
+status: true
+dependencies: {  }
+id: chiffres
+label: 'Composant chiffres'
+revision: 0
+description: ''

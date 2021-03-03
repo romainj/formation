@@ -1,0 +1,14 @@
+uuid: 9bd282ed-b46f-479e-8e05-0b099c2b1a79
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.eleve
+  module:
+    - user
+id: user_add_role_action.eleve
+label: 'Ajouter le rôle Élève aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: eleve

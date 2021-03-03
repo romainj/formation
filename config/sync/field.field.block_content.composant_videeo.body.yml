@@ -1,0 +1,23 @@
+uuid: ce153bc9-9963-4168-bce1-ace239f8122d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.composant_videeo
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.composant_videeo.body
+field_name: body
+entity_type: block_content
+bundle: composant_videeo
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,10 @@
+uuid: 29ffa6e3-716f-4a02-a5a2-d0496255c423
+langcode: fr
+status: true
+dependencies: {  }
+id: chiffres
+label: Chiffres
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

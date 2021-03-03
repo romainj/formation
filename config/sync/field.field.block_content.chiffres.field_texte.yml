@@ -1,0 +1,21 @@
+uuid: ead67fa2-6871-40d2-9232-5ea158d48472
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.chiffres
+    - field.storage.block_content.field_texte
+  module:
+    - text
+id: block_content.chiffres.field_texte
+field_name: field_texte
+entity_type: block_content
+bundle: chiffres
+label: Texte
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

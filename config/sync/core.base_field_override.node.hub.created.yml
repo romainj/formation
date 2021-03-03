@@ -1,0 +1,18 @@
+uuid: 5009ebf2-66a6-4f85-a011-ca1f223d43de
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.hub
+id: node.hub.created
+field_name: created
+entity_type: node
+bundle: hub
+label: 'Écrit le'
+description: 'L''heure à laquelle le nœud a été créé.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

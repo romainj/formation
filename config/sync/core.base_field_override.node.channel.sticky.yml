@@ -1,0 +1,22 @@
+uuid: f3e92341-818b-4b5f-813e-35b0cf1ab582
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.channel
+id: node.channel.sticky
+field_name: sticky
+entity_type: node
+bundle: channel
+label: 'Epinglé en haut des listes'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

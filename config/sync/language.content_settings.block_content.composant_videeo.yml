@@ -1,0 +1,11 @@
+uuid: f42ffd06-e35a-43e5-b03e-f2f7ac7d994a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.composant_videeo
+id: block_content.composant_videeo
+target_entity_type_id: block_content
+target_bundle: composant_videeo
+default_langcode: site_default
+language_alterable: false

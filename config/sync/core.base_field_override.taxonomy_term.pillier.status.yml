@@ -1,0 +1,22 @@
+uuid: ac5b999f-743e-4678-9797-37802202162c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.pillier
+id: taxonomy_term.pillier.status
+field_name: status
+entity_type: taxonomy_term
+bundle: pillier
+label: Publié
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

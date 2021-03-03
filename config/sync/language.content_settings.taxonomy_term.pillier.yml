@@ -1,0 +1,18 @@
+uuid: f1acd7bf-3f3a-4cc3-8831-5c3689b00d7c
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.pillier
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.pillier
+target_entity_type_id: taxonomy_term
+target_bundle: pillier
+default_langcode: site_default
+language_alterable: false

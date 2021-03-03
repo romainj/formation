@@ -1,0 +1,18 @@
+uuid: 2fc71511-c887-4882-b94b-0fa05d84f2df
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.pillier
+id: taxonomy_term.pillier.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: pillier
+label: Modifié
+description: 'Le moment auquel le terme a été modifié pour la dernière fois.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

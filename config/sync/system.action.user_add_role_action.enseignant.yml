@@ -1,0 +1,14 @@
+uuid: 2b0492af-b82e-41af-b0a4-f412f8bfbaaa
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.enseignant
+  module:
+    - user
+id: user_add_role_action.enseignant
+label: 'Ajouter le rôle Enseignant aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: enseignant

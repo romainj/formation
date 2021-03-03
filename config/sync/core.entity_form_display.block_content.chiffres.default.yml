@@ -1,0 +1,52 @@
+uuid: 55f66d9a-ae8e-4d7c-8b39-e7d64d794eee
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.chiffres
+    - field.field.block_content.chiffres.field_chiffre
+    - field.field.block_content.chiffres.field_texte
+  module:
+    - paragraphs
+    - text
+id: block_content.chiffres.default
+targetEntityType: block_content
+bundle: chiffres
+mode: default
+content:
+  field_chiffre:
+    type: entity_reference_paragraphs
+    weight: 26
+    settings:
+      title: Paragraphe
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_texte:
+    weight: 27
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

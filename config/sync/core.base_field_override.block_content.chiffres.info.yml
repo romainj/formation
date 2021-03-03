@@ -1,0 +1,18 @@
+uuid: ade0f2db-2253-4b8b-9638-d281d2b15305
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.chiffres
+id: block_content.chiffres.info
+field_name: info
+entity_type: block_content
+bundle: chiffres
+label: 'Description du bloc'
+description: 'Une brève description de votre bloc.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

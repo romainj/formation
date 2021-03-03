@@ -1,0 +1,20 @@
+uuid: 70c84aed-e630-48fd-afb0-99c8310018bb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.channel
+id: node.channel.uid
+field_name: uid
+entity_type: node
+bundle: channel
+label: 'Écrit par'
+description: 'Le nom d''utilisateur de l''auteur du contenu.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

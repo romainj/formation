@@ -1,0 +1,29 @@
+uuid: 4f083d67-6bb3-44c6-b10e-443fd6bac957
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_categorie
+    - node.type.channel
+    - taxonomy.vocabulary.categorie
+id: node.channel.field_categorie
+field_name: field_categorie
+entity_type: node
+bundle: channel
+label: Énergie
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      categorie: categorie
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

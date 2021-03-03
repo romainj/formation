@@ -1,0 +1,23 @@
+uuid: 3d91cef1-7dfc-47d1-94e9-303fffd01fec
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_chiffre
+    - paragraphs.paragraphs_type.chiffres
+id: paragraph.chiffres.field_chiffre
+field_name: field_chiffre
+entity_type: paragraph
+bundle: chiffres
+label: Chiffre
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

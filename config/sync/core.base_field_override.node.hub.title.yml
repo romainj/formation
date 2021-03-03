@@ -1,0 +1,18 @@
+uuid: 08da0c76-1a2a-4549-9b1c-8f6f0e858b5c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.hub
+id: node.hub.title
+field_name: title
+entity_type: node
+bundle: hub
+label: Titre
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,19 @@
+uuid: 6885ce5b-3b77-4862-b5a7-4b2772bd5535
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_unite
+    - paragraphs.paragraphs_type.chiffres
+id: paragraph.chiffres.field_unite
+field_name: field_unite
+entity_type: paragraph
+bundle: chiffres
+label: Unité
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,18 @@
+uuid: ccba42c9-42b1-44fd-afe2-f8466b605552
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.channel
+id: node.channel.title
+field_name: title
+entity_type: node
+bundle: channel
+label: Titre
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

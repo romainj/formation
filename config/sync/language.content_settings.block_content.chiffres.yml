@@ -1,0 +1,18 @@
+uuid: 939dc2df-21c6-4664-a8a0-49ce1f24f814
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.chiffres
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: block_content.chiffres
+target_entity_type_id: block_content
+target_bundle: chiffres
+default_langcode: site_default
+language_alterable: true
