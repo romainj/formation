@@ -1,0 +1,19 @@
+uuid: 65285bd3-a50b-431b-bc0b-fe8912e85eda
+langcode: fr
+status: false
+dependencies: {  }
+id: prod
+label: Prod
+description: ''
+folder: ../config/prod
+module: {  }
+theme: {  }
+blacklist: {  }
+graylist:
+  - contact.form.feedback
+  - contact.form.personal
+  - contact.settings
+  - system.site
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0
