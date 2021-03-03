@@ -22,6 +22,7 @@ module:
   environment_indicator: 0
   faqfield: 0
   field: 0
+  field_ui: 0
   file: 0
   filter: 0
   history: 0
