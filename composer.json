@@ -22,6 +22,7 @@
         "drupal/core-recommended": "^9.1",
         "drupal/cshs": "^2.2",
         "drupal/csv_importer": "^1.11",
+        "drupal/environment_indicator": "^4.0",
         "drupal/faqfield": "^7.0",
         "drupal/layout_builder_modal": "^1.1",
         "drupal/layout_builder_restrictions": "^2.8",
