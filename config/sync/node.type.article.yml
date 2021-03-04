@@ -1,7 +1,14 @@
 uuid: b3ea1e52-79cf-4f39-95f2-d10df282ade5
 langcode: fr
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
 _core:
   default_config_hash: AeW1SEDgb1OTQACAWGhzvMknMYAJlcZu0jljfeU3oso
 name: Article
@@ -10,4 +17,4 @@ description: 'Utilisez les <em>articles</em> pour des contenus possédant une te
 help: ''
 new_revision: true
 preview_mode: 1
-display_submitted: true
+display_submitted: false

@@ -10,5 +10,5 @@ recipients:
   - romain.jarraud@trainedpeople.com
 reply: ''
 weight: 0
-message: 'Votre message a été envoyé.'
+message: 'Your message has been sent.'
 redirect: ''

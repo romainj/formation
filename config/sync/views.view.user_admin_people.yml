@@ -901,7 +901,7 @@ display:
       show_admin_links: false
       menu:
         type: 'default tab'
-        title: Lister
+        title: List
         description: 'Trouver et gérer les personnes interagissant avec votre site.'
         menu_name: admin
         weight: -10

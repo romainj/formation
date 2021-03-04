@@ -17,7 +17,7 @@ mode: default
 content:
   field_age_minimum:
     weight: 101
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
@@ -26,7 +26,7 @@ content:
     region: content
   field_categorie:
     weight: 103
-    label: above
+    label: inline
     settings:
       link: true
     third_party_settings: {  }
@@ -34,15 +34,16 @@ content:
     region: content
   field_contenus:
     weight: 104
-    label: above
+    label: hidden
     settings:
-      link: true
+      view_mode: channel_card
+      link: false
     third_party_settings: {  }
-    type: entity_reference_label
+    type: entity_reference_entity_view
     region: content
   field_pilier:
     weight: 102
-    label: above
+    label: inline
     settings:
       link: true
     third_party_settings: {  }
@@ -50,8 +51,8 @@ content:
     region: content
   links:
     weight: 100
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
   langcode: true

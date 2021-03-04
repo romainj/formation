@@ -1,0 +1,10 @@
+uuid: 93cd3a76-e07a-4cea-9cf9-edbfe7e2ec26
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: node.token
+label: 'Jeton (token)'
+targetEntityType: node
+cache: true

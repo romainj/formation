@@ -19,6 +19,7 @@
         "drupal/admin_toolbar": "^3.0",
         "drupal/chosen": "^3.0",
         "drupal/config_split": "^1.7",
+        "drupal/contact_storage": "^1.1",
         "drupal/core-composer-scaffold": "^9.1",
         "drupal/core-project-message": "^9.1",
         "drupal/core-recommended": "^9.1",
@@ -31,6 +32,7 @@
         "drupal/linkit": "6.x",
         "drupal/module_filter": "^3.1",
         "drupal/paragraphs": "^1.12",
+        "drupal/webform": "^6.0",
         "drush/drush": "^10.4"
     },
     "conflict": {

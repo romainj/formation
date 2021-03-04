@@ -1,0 +1,10 @@
+uuid: 605b85af-b03e-429c-9855-c346c8621cd9
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: node.channel_card
+label: 'Channel card'
+targetEntityType: node
+cache: true
