@@ -1,0 +1,20 @@
+uuid: 1b0a1e9a-afb3-4074-950c-5e7e9b69e01c
+langcode: fr
+status: true
+dependencies:
+  module:
+    - hello
+  theme:
+    - total
+id: total_hello
+theme: total
+region: sidebar_second
+weight: 0
+provider: null
+plugin: hello_hello
+settings:
+  id: hello_hello
+  label: Hello
+  provider: hello
+  label_display: visible
+visibility: {  }

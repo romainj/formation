@@ -1,0 +1,24 @@
+uuid: 3cf7261f-e142-4271-a042-11f7c97a4de5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - image.style.paragraphe_chiffre_vignette
+    - image.style.paragraphe_chiffre_vignette_mobile
+  theme:
+    - bootstrap_barrio
+id: paragraphe_chiffre
+label: 'Paragraphe chiffre'
+image_style_mappings:
+  -
+    breakpoint_id: bootstrap_barrio.medium
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: paragraphe_chiffre_vignette
+  -
+    breakpoint_id: bootstrap_barrio.small
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: paragraphe_chiffre_vignette_mobile
+breakpoint_group: bootstrap_barrio
+fallback_image_style: paragraphe_chiffre_vignette

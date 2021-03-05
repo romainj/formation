@@ -1,0 +1,23 @@
+uuid: 04856a07-24b0-4d77-ab24-328a5b30bf54
+langcode: fr
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - total
+_core:
+  default_config_hash: Q-4EcGAsu26ICu4ejEz0uE1zv4akpiaOsizxgZfAmEw
+id: total_search
+theme: total
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Rechercher
+  provider: search
+  label_display: visible
+  page_id: node_search
+visibility: {  }

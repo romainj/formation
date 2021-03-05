@@ -1,0 +1,50 @@
+<?php
+
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\user\UserInterface;
+use Drupal\node\NodeInterface;
+use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
+use Drupal\views\Views;
+
+/**
+ * Implements hook_user_login().
+ */
+function hello_user_login(UserInterface $account) {
+  $userName = $account->getDisplayName();
+  $login_message = \Drupal::config('hello.settings')->get('login_message');
+  \Drupal::messenger()->addStatus(t($login_message, ['@username' => $userName]));
+}
+
+/**
+ * Implements hook_entity_view().
+ */
+function hello_node_view(array &$build, NodeInterface $node, EntityViewDisplayInterface $display, $view_mode) {
+  if ($node->bundle() == 'channel' && $view_mode == 'channel_list') {
+    $view = Views::getView('channel_contents');
+    $build['articles_list'] = $view->buildRenderable('block_1', [$node->id()]);
+  }
+}
+
+
+function hello_form_node_channel_form_alter(&$form, FormStateInterface $form_state) {
+  _hello_channel_form_alter($form, $form_state);
+}
+
+function hello_form_node_channel_edit_form_alter(&$form, FormStateInterface $form_state) {
+  _hello_channel_form_alter($form, $form_state);
+}
+
+function _hello_channel_form_alter(&$form, FormStateInterface $form_state) {
+  $form['field_pilier']['widget']['#required'] = TRUE;
+  if (\Drupal::currentUser()->isAuthenticated()) {
+    $form['field_pilier']['#access'] = FALSE;
+  }
+  $form['#validate'][] = '_hello_channel_form_alter_validate';
+}
+
+function _hello_channel_form_alter_validate(&$form, FormStateInterface $form_state) {
+  //ksm($form_state->getValue('field_pilier'));
+  if ($form_state->getValue('field_pilier') != '11') {
+    $form_state->setErrorByName('field_pilier', t('My error'));
+  }
+}

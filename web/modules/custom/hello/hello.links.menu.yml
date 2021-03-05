@@ -1,0 +1,10 @@
+hello.channels:
+  title: Channels
+  route_name: hello.channels
+  menu_name: main
+
+hello.settings:
+  title: Hello settings
+  route_name: hello.settings
+  menu_name: admin
+  parent: system.admin_config

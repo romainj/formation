@@ -1,0 +1,20 @@
+uuid: bbef9e09-ab1f-4b69-9cc5-0a72b3781abd
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - total
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: total_page_title
+theme: total
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Titre de page'
+  provider: core
+  label_display: '0'
+visibility: {  }

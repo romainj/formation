@@ -1,0 +1,10 @@
+uuid: c4c90189-a275-43fa-97d7-cf45625f1cdf
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: node.channel_list
+label: 'Channel list'
+targetEntityType: node
+cache: true

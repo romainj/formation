@@ -1,0 +1,4 @@
+login_message: '&lt;h1&gt;Hello @username&lt;/h1&gt;'
+_core:
+  default_config_hash: WKN8qbkVtTfg80aIL3DXPoZRPrMvTv6MNxJkAOO3Bhc
+langcode: fr

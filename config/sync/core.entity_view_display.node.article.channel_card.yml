@@ -9,7 +9,7 @@ dependencies:
     - field.field.node.article.field_categorie
     - field.field.node.article.field_image
     - field.field.node.article.field_pilier
-    - image.style.large
+    - image.style.media_library
     - node.type.article
   module:
     - image
@@ -40,7 +40,7 @@ content:
     weight: 0
     region: content
     settings:
-      image_style: large
+      image_style: media_library
       image_link: ''
     third_party_settings: {  }
     label: hidden

@@ -1,0 +1,60 @@
+uuid: 1e3af2b7-8394-4620-9804-855e28da4416
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.channel_list
+    - field.field.node.channel.field_age_minimum
+    - field.field.node.channel.field_categorie
+    - field.field.node.channel.field_contenus
+    - field.field.node.channel.field_pilier
+    - node.type.channel
+  module:
+    - layout_builder
+    - user
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
+id: node.channel.channel_list
+targetEntityType: node
+bundle: channel
+mode: channel_list
+content:
+  field_age_minimum:
+    weight: 0
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_categorie:
+    weight: 2
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_contenus:
+    weight: 3
+    label: hidden
+    settings:
+      view_mode: channel_card
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  field_pilier:
+    weight: 1
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  langcode: true
+  links: true

@@ -1,0 +1,22 @@
+uuid: 9d20ab23-9f34-477c-889f-b37ebb430fea
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - total
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: total_messages
+theme: total
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Messages de statut'
+  provider: system
+  label_display: '0'
+visibility: {  }

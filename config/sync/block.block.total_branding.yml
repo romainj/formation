@@ -1,0 +1,25 @@
+uuid: b50e5a0a-5587-4226-9a39-87903cdc719d
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - total
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: total_branding
+theme: total
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Identité du site'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

@@ -1,0 +1,11 @@
+total:
+  label: Total
+  category: Total
+  path: layouts/total
+  template: total
+  library: total/total
+  icon: total.png
+  default_region: one
+  regions:
+    one:
+      label: One

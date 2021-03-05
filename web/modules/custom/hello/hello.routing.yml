@@ -1,0 +1,15 @@
+hello.channels:
+  path: /channels-test
+  defaults:
+    _title: Channels
+    _controller: \Drupal\hello\Controller\ChannelsController::content
+  requirements:
+    _access: 'TRUE'
+
+hello.settings:
+  path: /admin/config/hello
+  defaults:
+    _title: Login message
+    _form: \Drupal\hello\Form\HelloSettingsForm
+  requirements:
+    _permission: 'hello administer'

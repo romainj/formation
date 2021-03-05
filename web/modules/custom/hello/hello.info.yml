@@ -1,0 +1,5 @@
+name: Hello
+description: My custom hello module.
+type: module
+core_version_requirement: ^9
+package: Training

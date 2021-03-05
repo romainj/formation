@@ -1,0 +1,20 @@
+uuid: 57ace474-7770-4808-82d4-19035afd625e
+langcode: fr
+status: true
+dependencies:
+  module:
+    - hello
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_hello
+theme: bootstrap_barrio
+region: sidebar_second
+weight: 0
+provider: null
+plugin: hello_hello
+settings:
+  id: hello_hello
+  label: Hello
+  provider: hello
+  label_display: visible
+visibility: {  }

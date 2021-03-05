@@ -8,10 +8,10 @@ dependencies:
     - field.field.paragraph.chiffres.field_titre
     - field.field.paragraph.chiffres.field_unite
     - field.field.paragraph.chiffres.field_vignette
-    - image.style.paragraphe_chiffre_vignette
     - paragraphs.paragraphs_type.chiffres
+    - responsive_image.styles.paragraphe_chiffre
   module:
-    - image
+    - responsive_image
 id: paragraph.chiffres.default
 targetEntityType: paragraph
 bundle: chiffres
@@ -55,9 +55,9 @@ content:
     weight: 0
     label: hidden
     settings:
-      image_style: paragraphe_chiffre_vignette
+      responsive_image_style: paragraphe_chiffre
       image_link: ''
     third_party_settings: {  }
-    type: image
+    type: responsive_image
     region: content
 hidden: {  }

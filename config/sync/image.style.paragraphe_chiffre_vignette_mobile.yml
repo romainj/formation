@@ -1,0 +1,20 @@
+uuid: fc9778ce-0d03-41e4-868c-2481ec1cdc73
+langcode: fr
+status: true
+dependencies: {  }
+name: paragraphe_chiffre_vignette_mobile
+label: 'Paragraphe Chiffre Vignette Mobile'
+effects:
+  b57147b8-9489-4636-bdbf-d69b7a898827:
+    uuid: b57147b8-9489-4636-bdbf-d69b7a898827
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 50
+      height: 50
+      anchor: center-center
+  2d1a62bc-603c-4e3c-a2aa-ac09706a4af6:
+    uuid: 2d1a62bc-603c-4e3c-a2aa-ac09706a4af6
+    id: image_desaturate
+    weight: 2
+    data: {  }
