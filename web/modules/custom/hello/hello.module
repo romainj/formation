@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for Hello module.
+ */
+
+function hello_theme() {
+  return [
+    'hello_block' => [
+      'variables' => [
+        'message' => NULL,
+      ],
+      'template' => 'hello-block',
+    ],
+  ];
+}

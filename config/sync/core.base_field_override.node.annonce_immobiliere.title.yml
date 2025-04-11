@@ -1,0 +1,18 @@
+uuid: a12c0b26-a504-47ee-b3f4-8061135466f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.annonce_immobiliere
+id: node.annonce_immobiliere.title
+field_name: title
+entity_type: node
+bundle: annonce_immobiliere
+label: Nom
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,22 @@
+uuid: 68e9c5e4-450c-4b6e-ae8c-6b891049b4e4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dropteam
+_core:
+  default_config_hash: Q28OyRezFqKiNBXTtb1tkZ3Do5CL3B9tfvVKvvB1aL4
+id: dropteam_powered
+theme: dropteam
+region: footer_fifth
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

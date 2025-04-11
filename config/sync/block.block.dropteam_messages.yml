@@ -1,0 +1,22 @@
+uuid: 2753bfd1-4810-4724-8e3b-6d3630faf10a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dropteam
+_core:
+  default_config_hash: WiuQFKhRq_pS8NQ8iDYtm6Q1k1oZcEqCS-j7CjfR2tg
+id: dropteam_messages
+theme: dropteam
+region: highlighted
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

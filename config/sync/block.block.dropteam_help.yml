@@ -1,0 +1,22 @@
+uuid: 1c78d725-0b12-4eab-a1e7-563302973e72
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - dropteam
+_core:
+  default_config_hash: H1JG1UggWKkDQQwWAEYZVibr_PcpfL77mtixECOLph8
+id: dropteam_help
+theme: dropteam
+region: highlighted
+weight: -2
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }
